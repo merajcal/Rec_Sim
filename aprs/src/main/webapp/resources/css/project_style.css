@@ -1,0 +1,71 @@
+
+
+.centering {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading {
+    background: url("../img/ajax-loader.gif");
+    width: 220px;
+    height: 19px;
+}
+
+#contactsHeaderButton {
+    margin-left: 7px;
+}
+
+#loadingModal {
+    width: 250px;
+    height: 59px;
+    z-index: 9999;
+}
+
+#divLoadingIcon {
+    padding-top: 18px;
+}
+
+.messageToUser {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.tdContactsCentered {
+    vertical-align: middle;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.insertAndUpdateDialogs {
+    width: 450px;
+    height: 300px;
+}
+
+.displayInLine {
+    display: inline;
+}
+
+.dialogErrorMessage {
+    margin-left: 10px;
+}
+
+#deleteContactsModal {
+    width: 500px;
+    height: 220px;
+    overflow: hidden;
+}
+
+#searchContactsModal {
+    width: 500px;
+    height: 180px;
+    overflow: hidden;
+}
